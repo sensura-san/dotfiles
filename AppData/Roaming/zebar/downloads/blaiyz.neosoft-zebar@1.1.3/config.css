@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  /* sizes */
+  --height: 100%;
+
+  /* outer margins */
+  --bar-margin-y: 0rem;
+  --bar-margin-x: 0rem;
+
+  /* Taskbar integration margins */
+  --process-icon-width: 50px;
+  --right-margin: 1rem;
+  --left-margin: 1rem;
+
+  /* fonts */
+  --font-family:
+    Montserrat, "SF Pro Display", Roboto, Helvetica, Arial, sans-serif;
+  --font-size: 14px;
+  --font-weight: 500;
+
+  /* border */
+  --border-size: 0.1rem;
+  --radius: 20px;
+
+  /* shadow */
+  --shadow-size-bar: 0rem;
+  --shadow-size-button: 0rem;
+  /* colors */
+  --text: var(--ctp-mocha-text);
+  --accent: var(--ctp-mocha-lavender);
+  --bg: var(--ctp-mocha-base);
+  --border: var(--ctp-mocha-overlay0);
+  --shadow: var(--cpt-mocha-crust);
+  --icon: var(--ctp-mocha-red);
+  --memory: var(--ctp-mocha-sky);
+  --cpu: var(--ctp-mocha-blue);
+  --cpu-high-usage: var(--ctp-mocha-sapphire);
+  --battery-good: var(--ctp-mocha-green);
+  --battery-mid: var(--ctp-mocha-teal);
+  --battery-low: var(--ctp-mocha-red);
+  --focused-process: var(--ctp-mocha-text);
+  --process: var(--ctp-mocha-subtext0);
+  --displayed: var(--ctp-mocha-text);
+  --ws-1: var(--ctp-mocha-lavender);
+  --ws-2: var(--ctp-mocha-mauve);
+  --ws-3: var(--ctp-mocha-sapphire);
+  --ws-4: var(--ctp-mocha-green);
+  --ws-5: var(--ctp-mocha-peach);
+  --tiling-direction: var(--ctp-mocha-rosewater);
+  --not-playing: var(--ctp-mocha-red);
+  --now-playing: var(--ctp-mocha-teal);
+  --weather: var(--ctp-mocha-text);
+  --volume-start: var(--ctp-mocha-mauve);
+  --volume-end: var(--ctp-mocha-flamingo);
+  --volume-inner: var(--ctp-mocha-lavender);
+  --bg-focused: var(--ctp-mocha-lavender) / 0.4;
+  --bg-unfocused: var(--ctp-mocha-base) / 0.5;
+}
