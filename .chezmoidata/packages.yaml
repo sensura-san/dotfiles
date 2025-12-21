@@ -1,0 +1,19 @@
+packages:
+  ubuntu:
+    apt:
+      - zoxide
+      - lazygit
+      - fzf
+      - ripgrep
+      # package managers
+      - cargo
+      - node
+      - uv
+    snaps:
+      classic:
+        - nvim
+        - gh
+      strict:
+    # uv tool install
+    uv:
+      - hyfetch
