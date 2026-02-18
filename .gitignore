@@ -1,0 +1,11 @@
+# Nix build artifacts
+result
+result-*
+.dirlocal
+.envrc
+
+# macOS
+.DS_Store
+*.swp
+*.swo
+
