@@ -15,6 +15,9 @@
 ```
 
 ## TODO
+- [ ] transfer configs from ubuntu WSL
+
+## FIX
 - [ ] Decouple ann.nix from per-package configs as much as possible (couple via imports)
 - [ ] ^ unslop-ify ann.nix
 - [ ] un-hardcode usernames/hostnames using var.nix
