@@ -18,7 +18,9 @@
     fzf      # fuzzy finder
     nodejs   # many LSP servers / formatters depend on Node
     stylua   # Lua formatter (for Neovim configs)
-    htop tldr tree
+    htop
+    btop
+    lazygit
   ];
 
   # If you still want to place some custom files (normal config files permitted)
