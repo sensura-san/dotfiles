@@ -1,5 +1,5 @@
 {
-  description = "macOS Lix configuration w/ nix-darwin, nix-homebrew, & home-manager";
+  description = "macOS Lix configuration w/ nix-darwin, homebrew, & home-manager";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
