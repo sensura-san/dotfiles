@@ -3,6 +3,7 @@
   imports = [
     ./nix.nix
     ./modules/keymaps.nix
+    ./modules/sudo.nix
     ./modules/homebrew.nix
   ];
 
@@ -34,7 +35,6 @@
     eza
     fastfetch
     nh
-    lazygit
     ripgrep
     fd
   ];
