@@ -8,6 +8,10 @@
     ./modules/neovim.nix 
     ./modules/zsh.nix 
     ./modules/lazygit.nix
+
+    # vanity
+    ./modules/hyfetch.nix
+    ./modules/fastfetch.nix
   ];
 
   home.stateVersion = "26.05";
