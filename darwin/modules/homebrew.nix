@@ -12,13 +12,25 @@
       "spicetify-cli"
     ];
     casks = [
-      "ghostty"
-      "visual-studio-code"
-      "orbstack"
+      # general 
+      "discord"
       "spotify"
-      "font-jetbrains-mono-nerd-font"
+
+      # terminal
+      "ghostty"
+
+      # IDEs
+      "visual-studio-code"
+
+      # dev tools
+      "orbstack"
+
+      # fonts
       "font-sf-mono"
       "font-sf-pro"
+      "font-jetbrains-mono-nerd-font"
+      "font-suse"
+      "font-hanken-grotesk"
     ];
   };
 }
