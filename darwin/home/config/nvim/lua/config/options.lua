@@ -7,7 +7,7 @@ vim.o.winblend = 20
 
 -- neovide config
 if vim.g.neovide then
-  vim.o.guifont = "Berkeley_Mono_Nerd_Font:h11"
+  vim.o.guifont = "Berkeley_Mono:h13"
 
   -- Cursor settings
   vim.g.neovide_cursor_vfx_mode = "pixiedust"
@@ -53,4 +53,8 @@ if vim.g.neovide then
       vim.g.neovide_title_background_color = string.format("#%06x", hl.bg or hl_init.bg)
     end,
   })
+
+  -- ----- macOS Only -----
+  vim.g.neovide_window_blurred = true
+  vim.g.neovide_highlight_matching_pair = true
 end
