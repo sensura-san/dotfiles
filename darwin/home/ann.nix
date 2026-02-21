@@ -1,4 +1,4 @@
-{ pkgs, ... }:
+{ pkgs, hostVars, ... }:
 {
   # NOTE: Certain programmes have home-manager-specific configs, enabled via programs.<program>
   imports = [
@@ -14,9 +14,9 @@
     ./modules/fastfetch.nix
   ];
 
-  home.stateVersion = "26.05";
-  home.username = "ann";
-  home.homeDirectory = "/Users/ann";
+  home.stateVersion = hostVars.homeManagerStateVersion;
+  home.username = hostVars.userName;
+  home.homeDirectory = "${hostVars.homePrefix}/${hostVars.userName}";
 
   # User-level packages installed to ~/.nix-profile/
   home.packages = with pkgs; [

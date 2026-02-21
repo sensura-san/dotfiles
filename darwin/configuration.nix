@@ -1,4 +1,4 @@
-{ config, pkgs, ... }:
+{ pkgs, hostVars, ... }:
 {
   imports = [
     ./nix.nix
@@ -7,17 +7,18 @@
     ./modules/homebrew.nix
   ];
 
-  system.stateVersion = 6;
+  system.stateVersion = hostVars.stateVersion;
 
-  networking.hostName = "thermonuclear-kitty";
-  networking.computerName = "thermonuclear-kitty";
-  networking.localHostName = "thermonuclear-kitty";
+  networking.hostName = hostVars.hostName;
+  networking.computerName = hostVars.hostName;
+  networking.localHostName = hostVars.hostName;
 
-  system.primaryUser = "ann";
+  system.primaryUser = hostVars.userName;
 
-  users.users.ann = {
-    name = "ann";
-    home = "/Users/ann";
+  # NOTE: for nix-darwin build
+  users.users.${hostVars.userName} = {
+    name = hostVars.userName;
+    home = "${hostVars.homePrefix}/${hostVars.userName}";
   };
 
   # --- System-wide configuration here ---
@@ -39,6 +40,5 @@
     fd
   ];
 
-  nixpkgs.config.allowUnfree = true;
   nix.package = pkgs.lixPackageSets.stable.lix; # NOTE: does not ensure consistency across packages, use overlay to wire Lix as dep, see https://lix.systems/add-to-config/
 }

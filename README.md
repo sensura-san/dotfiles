@@ -3,6 +3,8 @@
 ## Project Structure
 ```
 .
+└── flake.nix               # setup + entrypoint
+└── vars.nix                # host variables
 └── darwin
     ├── modules/            # system modules
     │   └── homebrew.nix    # homebrew downloads (for unpackaged apps)
@@ -11,7 +13,6 @@
     │   └── ann.nix         # user config + config/ bundle
     ├── nix.nix             # nix settings
     ├── configuration.nix   # system-level configs
-    └── flake.nix           # setup + entrypoint
 ```
 
 ## TODO
