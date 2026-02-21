@@ -2,6 +2,7 @@
 {
   # NOTE: Certain programmes have home-manager-specific configs, enabled via programs.<program>
   imports = [
+    ./config.nix
     ./modules/fonts.nix
     ./modules/git.nix 
     ./modules/neovim.nix 
