@@ -4,9 +4,9 @@
   imports = [
     ./config.nix
     ./modules/fonts.nix
-    ./modules/git.nix 
-    ./modules/neovim.nix 
-    ./modules/zsh.nix 
+    ./modules/git.nix
+    ./modules/neovim.nix
+    ./modules/zsh.nix
     ./modules/lazygit.nix
 
     # vanity
@@ -18,7 +18,7 @@
   home.username = hostVars.userName;
   home.homeDirectory = "${hostVars.homePrefix}/${hostVars.userName}";
 
-  # User-level packages installed to ~/.nix-profile/
+  # ----- User-level packages here, installed to ~/.nix-profile/ -----
   home.packages = with pkgs; [
     neovide
     nodejs

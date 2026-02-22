@@ -21,7 +21,7 @@
     home = "${hostVars.homePrefix}/${hostVars.userName}";
   };
 
-  # --- System-wide configuration here ---
+  # --- System-wide packages here ---
   environment.systemPackages = with pkgs; [
     # adds binaries to $PATH
     git-filter-repo

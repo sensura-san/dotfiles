@@ -12,7 +12,7 @@
       "spicetify-cli"
     ];
     casks = [
-      # general 
+      # general
       "discord"
       "spotify"
 
