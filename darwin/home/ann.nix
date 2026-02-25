@@ -25,6 +25,7 @@
     stylua
     nixd
     nixfmt
+    vscode
   ];
 
   programs.home-manager.enable = true;

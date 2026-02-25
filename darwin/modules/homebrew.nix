@@ -17,12 +17,6 @@
       "spotify"
       "vivaldi"
 
-      # terminal
-      # "ghostty"  # in nixpkgs (configuration.nix)
-
-      # IDEs
-      "visual-studio-code"
-
       # dev tools
       "orbstack"
 
