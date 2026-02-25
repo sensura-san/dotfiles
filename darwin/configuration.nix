@@ -6,6 +6,7 @@
     ./modules/homebrew.nix
     ./modules/sudo.nix
     ./modules/aerospace.nix
+    ./modules/tmux.nix
   ];
 
   system.stateVersion = hostVars.stateVersion;
