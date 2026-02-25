@@ -16,7 +16,7 @@
 
   system.primaryUser = hostVars.userName;
 
-  # NOTE: for nix-darwin build
+  # NOTE: for nix-darwin build to work
   users.users.${hostVars.userName} = {
     name = hostVars.userName;
     home = "${hostVars.homePrefix}/${hostVars.userName}";

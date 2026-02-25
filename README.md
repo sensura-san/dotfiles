@@ -58,13 +58,45 @@ OR:
 sudo nix run nix-darwin/master#darwin-rebuild -- switch
 ```
 
+## Nix Housekeeping
+
+Delete unlinked packages:
+
+```sh
+sudo nix-collect-garbage
+```
+
+List generations:
+
+```sh
+sudo darwin-rebuild --list-generations
+```
+
+or
+
+```sh
+nix profile history --profile /nix/var/nix/profiles/system
+```
+
+[Dangerous] Delete old generations:
+
+```sh
+sudo nix-collect-garbage -d
+```
+
+or
+
+```sh
+sudo nix profile wipe-history --profile /nix/var/nix/profiles/system --older-than 14d
+```
+
 ## TODO
 
-- [ ] fix services not uninstalling from previous generation (e.g. aerospace, skhd)
-- [ ] familiar keybindings
-- [ ] custom native keybindings (e.g. command palette)
-- [ ] rice menu bar, window manager
-- [ ] rice hyfetch
+- [x] fix services not uninstalling from previous generation (e.g. aerospace, skhd)
+- [x] window manager
+- [ ] familiar keybindings custom native keybindings (e.g. command palette)
+- [ ] rice menu bar
+- [ ] rice hyfetch (i.e. layout, perhaps done in fastfetch.nix?)
 - [ ] nvim config inspired by omarchy
 - [ ] powerline
 - [ ] zsh scripting set-up (or some other shell?)
