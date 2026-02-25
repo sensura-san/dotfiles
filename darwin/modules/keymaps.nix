@@ -21,17 +21,13 @@ in
         HIDKeyboardModifierMappingDst = capsLock;
       }
 
-      # rotate left Fn, Control, Option
+      # swap fn & control
       {
         HIDKeyboardModifierMappingSrc = fn;
         HIDKeyboardModifierMappingDst = control;
       }
       {
         HIDKeyboardModifierMappingSrc = control;
-        HIDKeyboardModifierMappingDst = option;
-      }
-      {
-        HIDKeyboardModifierMappingSrc = option;
         HIDKeyboardModifierMappingDst = fn;
       }
     ];
