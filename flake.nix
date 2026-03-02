@@ -17,7 +17,7 @@
   };
 
   outputs =
-    { nix-darwin, home-manager, ... }:
+    { nix-darwin, home-manager, ... }@inputs:
     let
       vars = import ./vars.nix;
     in
@@ -26,6 +26,7 @@
         system = vars.darwin.system;
         specialArgs = {
           hostVars = vars.darwin;
+          inherit inputs;
         };
         modules = [
           ./darwin/configuration.nix
@@ -38,6 +39,7 @@
               useUserPackages = true;
               extraSpecialArgs = {
                 hostVars = vars.darwin;
+                inherit inputs;
               };
               users.${vars.darwin.userName} = import ./darwin/home/ann.nix;
             };
