@@ -16,6 +16,7 @@
       after-startup-command = [ ];
 
       # Start AeroSpace at login
+      # NOTE: leave as false as start at login is managed by home-manager
       start-at-login = false;
 
       # Normalizations. See: https://nikitabobko.github.io/AeroSpace/guide#normalization
