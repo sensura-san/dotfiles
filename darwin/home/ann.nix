@@ -9,6 +9,7 @@
     ./modules/zsh.nix
     ./modules/lazygit.nix
     ./modules/fzf.nix
+    ./modules/oh-my-posh.nix
 
     # vanity
     ./modules/hyfetch.nix
