@@ -1,6 +1,9 @@
 {
   programs.zsh = {
     enable = true;
+    autosuggestion.enable = true;
+    syntaxHighlighting.enable = true;
+
     shellAliases = {
       # https://home-manager.dev/manual/25.05/options.xhtml#opt-programs.zsh.shellAliases
       l = "eza -F";
@@ -13,6 +16,10 @@
       v = "nvim";
       vi = "nvim";
       vim = "nvim";
+    };
+
+    oh-my-zsh = {
+      enable = true;
     };
   };
 }

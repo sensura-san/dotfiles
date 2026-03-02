@@ -8,6 +8,7 @@
     ./modules/neovim.nix
     ./modules/zsh.nix
     ./modules/lazygit.nix
+    ./modules/fzf.nix
 
     # vanity
     ./modules/hyfetch.nix

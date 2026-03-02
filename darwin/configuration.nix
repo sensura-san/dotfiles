@@ -7,6 +7,7 @@
     ./modules/sudo.nix
     ./modules/aerospace.nix
     ./modules/tmux.nix
+    ./modules/tailscale.nix
   ];
 
   system.stateVersion = hostVars.stateVersion;
@@ -31,7 +32,6 @@
     cachix
     zoxide
     rclone
-    fzf
     wget
     btop
     gh
