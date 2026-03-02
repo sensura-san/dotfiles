@@ -100,6 +100,7 @@ sudo nix profile wipe-history --profile /nix/var/nix/profiles/system --older-tha
 - [ ] nvim config inspired by omarchy
 - [ ] powerline
 - [ ] zsh scripting set-up (or some other shell?)
+- [x] zsh aliases
 - [x] transfer configs from ubuntu WSL
 - [x] rebind keyboard via nix-darwin
 - [x] auto-formatting
@@ -111,6 +112,7 @@ sudo nix profile wipe-history --profile /nix/var/nix/profiles/system --older-tha
 - [x] ^ unslop-ify ann.nix
 - [x] move flake.nix to project root (as modularised entrypoint; steal vi's)
 - [x] un-hardcode usernames/hostnames using vars.nix
+- [ ] vscode custom UI not preserved on restart
 
 ## EXTRA
 
