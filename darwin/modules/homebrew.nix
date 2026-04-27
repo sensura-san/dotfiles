@@ -21,6 +21,9 @@
       "orbstack"
       "visual-studio-code"
 
+      # other
+      "affinity"
+
       # fonts
       "font-sf-mono"
       "font-sf-pro"
