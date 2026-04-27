@@ -19,6 +19,7 @@
 
       # dev tools
       "orbstack"
+      "visual-studio-code"
 
       # fonts
       "font-sf-mono"
