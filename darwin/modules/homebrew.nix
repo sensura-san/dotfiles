@@ -14,8 +14,10 @@
     casks = [
       # general
       "discord"
+      "vesktop"
       "spotify"
       "vivaldi"
+      "whatsapp"
 
       # dev tools
       "orbstack"
