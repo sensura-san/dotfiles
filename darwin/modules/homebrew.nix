@@ -13,11 +13,11 @@
     ];
     casks = [
       # general
-      "discord"
       "vesktop"
       "spotify"
       "vivaldi"
       "whatsapp"
+      "steam"
 
       # dev tools
       "orbstack"
