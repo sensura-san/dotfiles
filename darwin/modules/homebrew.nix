@@ -18,6 +18,7 @@
       "vivaldi"
       "whatsapp"
       "steam"
+      "zoom"
 
       # dev tools
       "orbstack"
