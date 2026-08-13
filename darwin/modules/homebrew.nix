@@ -19,6 +19,7 @@
       "whatsapp"
       "steam"
       "zoom"
+      "obsidian"
 
       # dev tools
       "orbstack"
