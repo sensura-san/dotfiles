@@ -27,6 +27,7 @@
 
       # other
       "affinity"
+      "unnaturalscrollwheels"
 
       # fonts
       "font-sf-mono"
