@@ -21,5 +21,10 @@
     oh-my-zsh = {
       enable = true;
     };
+
+    # add homebrew to $PATH as nix-darwin homebrew setup does not do this automatically
+    initContent = ''
+      eval "$(/opt/homebrew/bin/brew shellenv)"
+    '';
   };
 }
