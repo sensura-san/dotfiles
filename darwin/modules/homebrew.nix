@@ -21,6 +21,8 @@
       "steam"
       "zoom"
       "obsidian"
+      "microsoft-word"
+      "microsoft-excel"
 
       # dev tools
       "orbstack"
