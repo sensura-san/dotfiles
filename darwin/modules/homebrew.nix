@@ -10,6 +10,7 @@
     brews = [
       "mas"
       "spicetify-cli"
+      "openconnect" # open-source client for cisco secure client
     ];
     casks = [
       # general
@@ -24,7 +25,6 @@
       # dev tools
       "orbstack"
       "visual-studio-code"
-      "waveforms"
 
       # other
       "affinity"
