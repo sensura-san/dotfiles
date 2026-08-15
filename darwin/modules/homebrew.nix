@@ -24,6 +24,7 @@
       # dev tools
       "orbstack"
       "visual-studio-code"
+      "waveforms"
 
       # other
       "affinity"

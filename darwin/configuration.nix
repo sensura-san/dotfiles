@@ -2,6 +2,7 @@
 {
   imports = [
     ./nix.nix
+    ./modules/mac-settings.nix
     ./modules/keymaps.nix
     ./modules/homebrew.nix
     ./modules/sudo.nix
