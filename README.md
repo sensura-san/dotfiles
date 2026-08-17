@@ -11,10 +11,10 @@
 └── flake.nix               # setup + entrypoint
 └── vars.nix                # host variables
 └── darwin                  # ----- Darwin-only Configs -----
-    ├── modules/            # system-level modules
-    │   └── homebrew.nix    # homebrew packages (for unpackaged apps)
+    ├── modules/            # system-level modules (nix-darwin config, homebrew apps, mas apps)
+    │   └── homebrew.nix    # homebrew packages
     ├── home/               # user-level related files
-    │   ├── modules/        # user-level modules
+    │   ├── modules/        # user-level modules (from home-manager)
     │   ├── config/         # dotfiles
     │   └── ann.nix         # user-level configs & packages
     ├── nix.nix             # nix settings
