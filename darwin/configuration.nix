@@ -5,7 +5,6 @@
     ./modules/mac-settings.nix
     ./modules/keymaps.nix
     ./modules/homebrew.nix
-    ./modules/sudo.nix
     ./modules/aerospace.nix
     ./modules/tmux.nix
     ./modules/tailscale.nix
