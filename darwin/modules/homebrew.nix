@@ -9,7 +9,7 @@
 
     brews = [
       "spicetify-cli"
-      "openconnect" # open-source client for cisco secure client
+      "openconnect" # open-source client for cisco secure client (NOTE: doesnt work nus vpn :/)
     ];
     casks = [
       # general
