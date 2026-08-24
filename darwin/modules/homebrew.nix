@@ -30,6 +30,7 @@
       # other
       "affinity"
       "unnaturalscrollwheels"
+      "vorssaint"
 
       # fonts
       "font-sf-mono"
