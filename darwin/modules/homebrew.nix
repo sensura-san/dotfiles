@@ -29,7 +29,6 @@
 
       # other
       "affinity"
-      "unnaturalscrollwheels"
       "vorssaint"
 
       # fonts
