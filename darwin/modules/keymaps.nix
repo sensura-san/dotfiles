@@ -22,14 +22,14 @@ in
       }
 
       # swap fn & control
-      {
-        HIDKeyboardModifierMappingSrc = fn;
-        HIDKeyboardModifierMappingDst = control;
-      }
-      {
-        HIDKeyboardModifierMappingSrc = control;
-        HIDKeyboardModifierMappingDst = fn;
-      }
+      # {
+      #   HIDKeyboardModifierMappingSrc = fn;
+      #   HIDKeyboardModifierMappingDst = control;
+      # }
+      # {
+      #   HIDKeyboardModifierMappingSrc = control;
+      #   HIDKeyboardModifierMappingDst = fn;
+      # }
     ];
   };
 }
