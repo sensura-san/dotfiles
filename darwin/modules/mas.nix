@@ -1,9 +1,10 @@
 {
-  programs.mas = {
-    enable = true;
+  #   # doesnt work sis
+  #   programs.mas = {
+  #     enable = true;
 
-    packages = {
-      Noteful = 1587904334;
-    };
-  };
+  #     packages = {
+  #       Noteful = 1587904334;
+  #     };
+  #   };
 }

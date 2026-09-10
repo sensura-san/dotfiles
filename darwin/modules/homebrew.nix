@@ -8,6 +8,7 @@
     };
 
     brews = [
+      "mas"
       "spicetify-cli"
       "openconnect" # open-source client for cisco secure client (NOTE: doesnt work nus vpn :/)
     ];
@@ -38,5 +39,8 @@
       "font-suse"
       "font-hanken-grotesk"
     ];
+    masApps = {
+      Noteful = 1587904334;
+    };
   };
 }
