@@ -1,9 +1,9 @@
 {
   programs.mas = {
     enable = true;
-  };
 
-  packages = {
-
+    packages = {
+      Noteful = 1587904334;
+    };
   };
 }
