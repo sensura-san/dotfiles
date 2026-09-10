@@ -16,10 +16,10 @@ in
 
     userKeyMapping = [
       # Escape -> Caps Lock
-      {
-        HIDKeyboardModifierMappingSrc = escape;
-        HIDKeyboardModifierMappingDst = capsLock;
-      }
+      # {
+      #   HIDKeyboardModifierMappingSrc = escape;
+      #   HIDKeyboardModifierMappingDst = capsLock;
+      # }
 
       # swap fn & control
       # {
