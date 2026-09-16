@@ -26,6 +26,7 @@
       # dev tools
       "orbstack"
       "visual-studio-code"
+      "arduino-ide"
 
       # other
       "affinity"
