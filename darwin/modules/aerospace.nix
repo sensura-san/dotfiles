@@ -152,6 +152,7 @@
         alt-7 = "workspace 7";
         alt-8 = "workspace 8";
         alt-9 = "workspace 9";
+        alt-d = "workspace D";
 
         # See: https://nikitabobko.github.io/AeroSpace/commands#move-node-to-workspace
         alt-shift-1 = "move-node-to-workspace 1";
@@ -163,6 +164,7 @@
         alt-shift-7 = "move-node-to-workspace 7";
         alt-shift-8 = "move-node-to-workspace 8";
         alt-shift-9 = "move-node-to-workspace 9";
+        alt-shift-d = "move-node-to-workspace D"; # discord
 
         # See: https://nikitabobko.github.io/AeroSpace/commands#workspace-back-and-forth
         alt-tab = "workspace-back-and-forth";
