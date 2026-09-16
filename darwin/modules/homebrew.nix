@@ -39,7 +39,7 @@
       "font-hanken-grotesk"
     ];
     masApps = {
-      Noteful = 1587904334;
+      # Noteful = 1587904334;
     };
   };
 }
