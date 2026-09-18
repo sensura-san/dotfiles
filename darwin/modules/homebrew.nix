@@ -22,6 +22,7 @@
       "obsidian"
       "microsoft-word"
       "microsoft-excel"
+      "pinta" # like paint.net
 
       # dev tools
       "orbstack"
