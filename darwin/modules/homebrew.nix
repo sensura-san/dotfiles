@@ -23,6 +23,7 @@
       "microsoft-word"
       "microsoft-excel"
       "pinta" # like paint.net
+      "chatgpt"
 
       # dev tools
       "orbstack"
