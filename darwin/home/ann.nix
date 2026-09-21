@@ -1,5 +1,16 @@
 { pkgs, hostVars, ... }:
 {
+  programs.home-manager.enable = true;
+
+  # ----- User-level packages here, installed to ~/.nix-profile/ -----
+  home.packages = with pkgs; [
+    neovide
+    nodejs
+    stylua
+    nixd
+    nixfmt
+  ];
+
   # NOTE: Certain programmes have home-manager-specific configs, enabled via programs.<program>
   imports = [
     ./config.nix
@@ -20,14 +31,4 @@
   home.username = hostVars.userName;
   home.homeDirectory = "${hostVars.homePrefix}/${hostVars.userName}";
 
-  # ----- User-level packages here, installed to ~/.nix-profile/ -----
-  home.packages = with pkgs; [
-    neovide
-    nodejs
-    stylua
-    nixd
-    nixfmt
-  ];
-
-  programs.home-manager.enable = true;
 }
