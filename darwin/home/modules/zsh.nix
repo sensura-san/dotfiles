@@ -16,6 +16,8 @@
       v = "nvim";
       vi = "nvim";
       vim = "nvim";
+
+      lg = "lazygit";
     };
 
     oh-my-zsh = {
@@ -25,6 +27,7 @@
     # add homebrew to $PATH as nix-darwin homebrew setup does not do this automatically
     initContent = ''
       eval "$(/opt/homebrew/bin/brew shellenv)"
+      export PATH="$HOME/.local/bin:$PATH"
     '';
   };
 }
