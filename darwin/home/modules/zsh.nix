@@ -28,6 +28,7 @@
     initContent = ''
       eval "$(/opt/homebrew/bin/brew shellenv)"
       export PATH="$HOME/.local/bin:$PATH"
+      export PATH="/Users/ann/.bun/bin:$PATH"
     '';
   };
 }
