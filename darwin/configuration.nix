@@ -43,6 +43,7 @@
     fd
     ghostty-bin
     uv
+    bun
   ];
 
   nix.package = pkgs.lixPackageSets.stable.lix; # NOTE: does not ensure consistency across packages, use overlay to wire Lix as dep, see https://lix.systems/add-to-config/

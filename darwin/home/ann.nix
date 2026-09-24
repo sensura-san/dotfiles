@@ -30,5 +30,4 @@
   home.stateVersion = hostVars.homeManagerStateVersion;
   home.username = hostVars.userName;
   home.homeDirectory = "${hostVars.homePrefix}/${hostVars.userName}";
-
 }
