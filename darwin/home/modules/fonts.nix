@@ -12,6 +12,7 @@
     nerd-fonts.geist-mono
     nerd-fonts.zed-mono
     nerd-fonts.departure-mono
+    nerd-fonts.commit-mono
     maple-mono.NF
     cozette
   ];
