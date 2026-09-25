@@ -1,8 +1,9 @@
 {
   homebrew = {
     enable = true;
+    global.autoUpdate = false; # manual brew invocations don't autoUpdate
     onActivation = {
-      autoUpdate = true;
+      autoUpdate = false; # have to call `brew update` to update repo
       upgrade = true;
     };
 

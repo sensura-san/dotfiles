@@ -62,6 +62,22 @@ OR:
 sudo nix run nix-darwin/master#darwin-rebuild -- switch
 ```
 
+## Update Package Sources, upgrade packages
+
+For nixpkgs, home-manager, nix-darwin (in flake.lock):
+
+```sh
+nix flake update
+```
+
+For brew packages:
+
+```sh
+brew update
+```
+
+Then just run `nh darwin switch .` to upgrade and get everything up-to-date.
+
 ## Nix Housekeeping
 
 Delete unlinked packages:
