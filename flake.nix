@@ -32,7 +32,12 @@
           ./darwin/configuration.nix
 
           home-manager.darwinModules.home-manager
-          { nixpkgs.config.allowUnfree = true; }
+          {
+            nixpkgs.config = {
+              allowUnfree = true;
+              input-fonts.acceptLicense = true;
+            };
+          }
           {
             home-manager = {
               useGlobalPkgs = true;

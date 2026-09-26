@@ -12,8 +12,8 @@
     nerd-fonts.geist-mono
     nerd-fonts.zed-mono
     nerd-fonts.departure-mono
-    nerd-fonts.commit-mono
     maple-mono.NF
+    input-fonts # license accept is in flake.nix
     cozette
   ];
 }
